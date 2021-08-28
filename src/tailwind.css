@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+	@apply text-white block p-5 font-bold hover:text-yellow-500;
+}
+.dot {
+	@apply w-3 h-3 bg-blue-600 rounded-full;
+}
+.btn {
+	@apply my-4 inline-block py-2 px-16 bg-red-500 text-white font-black border-transparent border-8 rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-700;
+}
+.arrow {
+	@apply w-4 h-4 inline-block border-yellow-300 border-solid border-t-4 border-r-4 transition-all transform rotate-45;
+}
